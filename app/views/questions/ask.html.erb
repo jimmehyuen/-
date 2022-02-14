@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <style>
-      /* Email styles need to be inline */
-    </style>
-  </head>
-
-  <body>
   <h1>Stupid Coaching</h1>
-    <%= yield %>
-  </body>
-</html>
+  <p>Ask your coach anything</p>
+    <form action="/answer">
+      <input type="text" name="question">
+      <input type="submit" value="Ask">
+    </form>
